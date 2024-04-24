@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: black;
+    background-image: url("../img/tame\ impala\ fondo\ este\ si.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: normal;
+}
+
+p{
+    color: #000000;
+    font-size: 26px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+    
+
+blockquote{
+    color: #4d4d4d;
+    padding: 20px;
+    font-size: 26px;
+    font-style: italic;
+    font-family: 'Raleway'
+    
+}
+
+.bajada{
+    color: #300128;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Raleway'
+}
+
+#doble_fondo{
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    padding: 25px;
+    border-radius: 20px;
+    margin: auto;
+    
+}
+
+.titulo{
+    justify-content: center;
+    padding: 250px;
+
+}
+
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contenedor > div {
+    width: 50%;
+}
+
+.imagen {
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+    margin: auto;
+}
+
+.logo{
+    width: 55%;
+    height: 55%;
+
+}
+
+#logocontenedor {
+    display: flex;
+    float: right;
+    justify-content: center;
+}
